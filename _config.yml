@@ -1,0 +1,5 @@
+title: Aliakbar's Portfolio
+description: The developer portfolio of Aliakbar
+url: "https://adicto56.github.io" 
+baseurl: ""
+exclude: [_site, Gemfile, Gemfile.lock, node_modules]

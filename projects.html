@@ -1,0 +1,20 @@
+---
+layout: default
+title: Projects
+---
+
+<h1>My Projects 🛠️</h1>
+
+<div class="item-list">
+  {% for project in site.data.projects %}
+    <div class="item">
+      {% if project.image %}
+        <img src="{{ site.baseurl }}{{ project.image }}" alt="{{ project.name }}" style="border-radius: 8px; margin-bottom: 15px; border: 1px solid #333;">
+      {% endif %}
+
+      <a href="{{ project.url }}" class="item-title" target="_blank">{{ project.name }}</a>
+      <div class="item-tools">{{ project.tools | join: ', ' }}</div>
+      <p class="item-desc">{{ project.description }}</p>
+    </div>
+  {% endfor %}
+</div>
