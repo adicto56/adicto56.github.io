@@ -1,10 +1,11 @@
 - name: "To-Do List App"
   description: "To-Do List website to keep track of daily tasks"
-  image: "assets/images/Screenshot 2025-11-26 135449.png"
+  image: "assets/images/to_do_list.png"
   url: "https://github.com/adicto56/todolist"
-  tools: ["HTML", "Pyhton"]
+  tools: ["HTML", "Python"]
 
 - name: "How does hardware work?"
   description: "Logic gates and how they are built in Breadboard"
-  image: "/assets/images/profile.jpg"
+  image: "/assets/images/image.png"
+  url: "https://www.youtube.com/watch?v=tZCOL2fDM2A"
   tools: ["Breadboard and its applications"]
