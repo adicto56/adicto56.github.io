@@ -6,12 +6,15 @@ title: Resume
 <h1>My Resume</h1>
 
 <main class="content">
-    <div class="pdf-embed">
-		<iframe src="/CV.pdf" title="CV PDF">Your browser does not support embedded PDFs. <a href="/CV.pdf">Download the PDF</a>.</iframe>
+    <div class="pdf-container">
+		<iframe src="{{ site.baseurl }}CV.pdf" title="CV PDF">Your browser does not support embedded PDFs.</iframe>
 	</div>
+    <a href="{{ site.baseurl }}CV.pdf" target="_blank" class="mobile-resume-link">
+        <i class="fas fa-file-download"></i> Tap to View Resume (PDF)
+    </a>
     <p style="text-align: center; margin-top: 15px;">
-  <a href="{{ site.baseurl }}CV.pdf" target="_blank" class="highlight">
-    <i class="fas fa-file-download"></i> Download Resume (PDF)
-  </a>
-</p>
+        <a href="{{ site.baseurl }}CV.pdf" target="_blank" class="highlight">
+            <i class="fas fa-file-download"></i> Download Resume (PDF)
+        </a>
+    </p>
 </main>
