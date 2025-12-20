@@ -49,6 +49,11 @@ img { max-width: 100%; display: block; }
 
 .site-title { font-size: 1.5rem; font-weight: 700; color: #fff; display: block; margin-bottom: 20px; text-align: center;}
 
+.home-intro p {
+  line-height: 2.15;
+  margin-bottom: 1rem;
+}
+
 .nav-menu li { margin-bottom: 12px; }
 .nav-menu a {
   font-family: 'Inter', sans-serif;
